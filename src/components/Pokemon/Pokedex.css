@@ -1,0 +1,21 @@
+.pokedex h1{
+  text-align: center;
+  margin-top: 50px;
+  font-size: 4rem;
+}
+.pokedex__list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  max-width: 800px;
+  margin: 50px auto;
+}
+.pokedex__list-link{
+  display: block;
+  font-size: 1.5rem;
+  color: #3860a2;
+}
+.pokedex__list-link:hover{
+  text-decoration: none;
+}
